@@ -84,7 +84,7 @@ class CalcViewController: UIViewController {
             viewsDictionary[key] = value
             value.translatesAutoresizingMaskIntoConstraints = false
         }
-        self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: nil, views: viewsDictionary))
+        self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutConstraint.FormatOptions(), metrics: nil, views: viewsDictionary))
     }
 
     @objc func multiply(sender: UIButton) {

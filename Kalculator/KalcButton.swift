@@ -18,7 +18,7 @@ class KalcObject {
     }
     
     func setInputValue(newValue: String) {
-        if inputValue.characters.count < 10 {
+        if inputValue.count < 10 {
             if inputValue == "0" {
                 inputValue = newValue
             } else {
